@@ -23,9 +23,7 @@
                 "pseudo": "strange",
                 "telephone": "3551566498",
                 "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
-                "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-                "position": {},
-                "profil": []
+                "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100"
             },
             "tags": [],
             "hashtags": []
@@ -40,9 +38,7 @@
                 "pseudo": "IronMan",
                 "telephone": "68466464",
                 "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
-                "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-                "position": {},
-                "profil": []
+                "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100"
             },
             "tags": [],
             "hashtags": []
@@ -77,9 +73,7 @@
                 "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
                 "position": {},
                 "profil": []
-            },
-            "tags": [],
-            "hashtags": []
+            }
         },
         {
             "post_type": "memory",
@@ -109,11 +103,6 @@
             "telephone": "649684",
             "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
             "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-            "position": {
-                "latitude": 1.25951418,
-                "longitude": 1.65450,
-                "coord_time": "Thu Nov 08 2018 12:42:09 GMT+0100"
-            },
             "profil": [
                 {
                     "key": "Religion",
@@ -134,11 +123,6 @@
             "telephone": "68466464",
             "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
             "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-            "position": {
-                "latitude": 1.25951418,
-                "longitude": 1.65450,
-                "coord_time": "Thu Nov 08 2018 12:42:09 GMT+0100"
-            },
             "profil": [
                 {
                     "key": "Religion",
@@ -159,11 +143,6 @@
             "telephone": "35516498",
             "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
             "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-            "position": {
-                "latitude": 1.25951418,
-                "longitude": 1.65450,
-                "coord_time": "Thu Nov 08 2018 12:42:09 GMT+0100"
-            },
             "profil": [
                 {
                     "key": "Religion",
@@ -184,11 +163,6 @@
             "telephone": "68466464",
             "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
             "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-            "position": {
-                "latitude": 1.25951418,
-                "longitude": 1.65450,
-                "coord_time": "Thu Nov 08 2018 12:42:09 GMT+0100"
-            },
             "profil": [
                 {
                     "key": "Religion",
@@ -210,11 +184,6 @@
         "telephone": "649684",
         "date_nais": "Thu Nov 08 2018 12:42:09 GMT+0100",
         "last_seen": "Thu Nov 08 2018 12:42:09 GMT+0100",
-        "position": {
-            "latitude": 1.25951418,
-            "longitude": 1.65450,
-            "coord_time": "Thu Nov 08 2018 12:42:09 GMT+0100"
-        },
         "profil": [
             {
                 "key": "Religion",

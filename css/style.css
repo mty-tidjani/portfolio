@@ -318,7 +318,7 @@ a.active {
     width: 400px;
     height: 400px;
     top: 40px;
-    left: 50px;
+    left: 70px;
     z-index: 1
 }
 
@@ -774,6 +774,9 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+    .about-border {
+        left: 50px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -787,7 +790,7 @@ fieldset {
         height: 600px;
     }
     .about-border {
-        width: 265px;
+        width: 290px;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
@@ -803,6 +806,10 @@ fieldset {
 @media (max-width: 1000px) {
     .skill-icons {
         font-size: 40px;
+    }
+    .about-border {
+        left: unset;
+    right: 0px;
     }
 }
 
@@ -833,4 +840,29 @@ fieldset {
     font-size: 16px;
     position: relative;
     left: -10px;
+}
+
+.dev-name{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #a94442;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.dev-name::before{
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #a94442;
+    top: 35px;
+}
+div#skills {
+    padding: 50px 0;
+    background: #fffafa;
 }

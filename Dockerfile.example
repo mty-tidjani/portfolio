@@ -1,0 +1,21 @@
+FROM node:10.18.1-alpine
+USER root
+# ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.2.1/wait /wait
+# RUN chmod +x /wait
+
+WORKDIR /app/server
+
+COPY . ../
+
+RUN npm install pm2 -g
+RUN npm i babel-cli -g
+
+RUN /bin/sh -c "apk add --no-cache bash"
+
+RUN chmod 777 ../buildscript.example.sh
+
+RUN ../buildscript.example.sh
+
+EXPOSE 3500
+
+CMD ["pm2-runtime", "build/app.js"]

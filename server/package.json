@@ -1,0 +1,40 @@
+{
+  "name": "ts_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --ignore public/ --exec babel-node --presets env,stage-0",
+    "clean": "rm -rf build && rm -rf client && mkdir build",
+    "build": "npm run clean && babel . -s -d  build --presets env,stage-0 --ignore logs,node_modules",
+    "prod": "node ./build/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.1"
+  },
+  "keywords": [
+    "Talent",
+    "Sportif",
+    "cameroon",
+    "sport",
+    "detection",
+    "social",
+    "network"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.2"
+  }
+}

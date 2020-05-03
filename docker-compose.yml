@@ -1,0 +1,13 @@
+version: "2"
+services:
+  app:
+    container_name: Tidjani_resume
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.example
+    ports:
+      - "3500:3500"
+    volumes: 
+      - /app/server/node_modules
+      - /app/client/node_modules

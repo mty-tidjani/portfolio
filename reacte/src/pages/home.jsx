@@ -1,9 +1,9 @@
 import React from 'react';
 
-className Home extends React.Component{
+class Home extends React.Component{
 
   render(){
-    return <>
+    return <React.Fragment>
        {/* <!-- header --> */}
     <header className="navbar-fixed-top">
         <nav>
@@ -305,7 +305,7 @@ className Home extends React.Component{
             </div>
         </div>
     </div>
-    </>
+    </React.Fragment>
   }
 }
 

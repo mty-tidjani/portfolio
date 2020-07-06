@@ -822,7 +822,7 @@ fieldset {
     color: #eee;
     padding: 3%;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 35vh;
 }
 
 @media (max-width: 1000px) {
